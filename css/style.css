@@ -108,3 +108,11 @@ img:hover img{
 .change{
     display: none;
 }
+
+.first:hover .changeimage{
+    display: none;
+}
+
+.first:hover .change{
+    display: block;
+}
