@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug, div{
+    border: 3px dashed;
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
