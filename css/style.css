@@ -2,14 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.debug, div{
-    border: 3px dashed;
+.debug{
+    border: 1px dashed;
+    height: 2000px;
 }
-.flex{
+.flex, ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+header{
+    height: 70px;
     position: fixed;
     left: 0;
     right: 0;
+    background-color: orangered;
+}
+#img-logo{
+    height: 32px;
+    width: 134px;
 }
