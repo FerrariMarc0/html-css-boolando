@@ -5,6 +5,7 @@
     list-style-type: none;
     text-decoration: none;
     border: none;
+    font-family: 'Sawarabi Gothic', sans-serif;
 }
 .flex, ul{
     display: flex;
