@@ -77,10 +77,6 @@ footer{
     color: red;
 }
 
-img:hover img{
-    background-image: url(../img/3.webp);
-}
-
 .discount, .label, .label-6{
     position: absolute;
     bottom: 20px;
@@ -115,4 +111,16 @@ img:hover img{
 
 .first:hover .change{
     display: block;
+}
+
+footer{
+    color: white;
+    height: 100px;
+}
+
+.foot{
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
 }
