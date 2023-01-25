@@ -54,7 +54,7 @@ footer{
     border-bottom: 1px solid white;
 }
 
-.discount{
+.price{
     color: red;
     font-weight: 900;
 }
@@ -75,4 +75,24 @@ footer{
 .icon:hover{
     cursor: pointer;
     color: red;
+}
+
+.discount, .label, .label-6{
+    position: absolute;
+    bottom: 20px;
+    padding: 0px 10px;
+    color: white;
+    font-weight: 600;
+}
+.discount{
+    background-color: red;
+}
+
+.label{
+    background-color: green;
+    left: 60px;
+}
+.label-6{
+    background-color: green;
+    left: 0;
 }
