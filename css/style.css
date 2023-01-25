@@ -77,6 +77,10 @@ footer{
     color: red;
 }
 
+img:hover img{
+    background-image: url(../img/3.webp);
+}
+
 .discount, .label, .label-6{
     position: absolute;
     bottom: 20px;
@@ -95,4 +99,12 @@ footer{
 .label-6{
     background-color: green;
     left: 0;
+}
+
+.changeimage{
+    display: block;
+}
+
+.change{
+    display: none;
 }
