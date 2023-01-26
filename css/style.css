@@ -24,7 +24,6 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    position: relative;
 }
 /*
 --------------
@@ -33,13 +32,13 @@
 */
 header{
     height: 70px;
-    left: 0;
-    right: 0;
     background-color: orangered;
     margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+
 }
 #img-logo{
-    height: 32px;
     width: 134px;
 }
 
